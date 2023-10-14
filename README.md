@@ -11,7 +11,7 @@ This project was developed as a part of the hiring process for MBC
 - `Ract.js` for creating the UI components
 - `SCSS`for styling the components pages
 - `Redux` for statement management
-- For mock data i used [NewsAPI](https://newsapi.org/)
+- For mock data i used [NewsAPI](https://newsapi.org/) this api working just on localhost
 
 # Project Structure
 
