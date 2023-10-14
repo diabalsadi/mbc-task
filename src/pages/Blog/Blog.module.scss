@@ -1,0 +1,13 @@
+@import "../../styles/breakpoints.scss";
+
+.articlesContainer {
+    column-gap: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+
+    @include bp-below(small) {
+        justify-content: initial;
+    }
+}

@@ -1,0 +1,18 @@
+@import "../../styles/breakpoints.scss";
+@import "../../styles/fonts.scss";
+
+.title {
+    font: bold 35px $rubik;
+
+    @include bp-below(small) {
+        font-size: 20px;
+    }
+}
+
+.big {
+    font-size: 104px;
+
+    @include bp-below(small) {
+        font-size: 70px;
+    }
+}

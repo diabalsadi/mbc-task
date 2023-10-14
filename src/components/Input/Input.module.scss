@@ -1,0 +1,24 @@
+@import "../../styles/colors.scss";
+
+.label {
+    text-transform: capitalize;
+}
+
+.input {
+    border-radius: 2px;
+    border: 1px solid;
+    outline: none;
+}
+
+.isValid {
+    border: 3px solid $green;
+}
+
+.notValid {
+    border: 3px solid $red;
+}
+
+.message {
+    color: $red;
+    font-size: 14px;
+}

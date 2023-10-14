@@ -1,0 +1,61 @@
+@import "../../styles/breakpoints.scss";
+@import "../../styles/colors.scss";
+
+.container {
+    width: 500px;
+    box-shadow: 1px 5px 20px 0px rgba($black, 0.6);
+    display: flex;
+    column-gap: 10px;
+    padding: 20px;
+    height: 300px;
+
+    @include bp-below(small) {
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        row-gap: 10px;
+        width: 90%;
+    }
+}
+
+.dark {
+    box-shadow: 1px 5px 20px 0px rgba($white, 0.6);
+}
+
+.image {
+    box-shadow: none;
+    height: 200px;
+    width: 200px;
+
+    &.dark {
+        border: 1px solid $white;
+    }
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+}
+
+.author {
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.description {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+}

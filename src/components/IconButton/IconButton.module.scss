@@ -1,0 +1,16 @@
+.container {
+    align-items: center;
+    border-radius: 30px;
+    column-gap: 10px;
+    display: flex;
+}
+
+.logo {
+    svg {
+        width: 30px;
+    }
+}
+
+.label {
+    text-transform: capitalize;
+}

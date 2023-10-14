@@ -1,0 +1,28 @@
+@import "./colors.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    height: 30px;
+    padding: 5px;
+}
+
+textarea {
+    padding: 5px;
+    resize: none;
+}
+
+.noScroll {
+    overflow: hidden;
+}
+
+.dark {
+    background-color: $black;
+}

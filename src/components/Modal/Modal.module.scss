@@ -1,0 +1,57 @@
+@import "../../styles/breakpoints.scss";
+@import "../../styles/colors.scss";
+@import "../../styles/fonts.scss";
+
+.container {
+    background: rgba($black, 0.4);
+    bottom: 0;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+
+    &.dark {
+        background: rgba($white, 0.8);
+    }
+}
+
+.modalWrapper {
+    background-color: $white;
+    border-radius: 5px;
+    border: 1px solid $white;
+    color: $black;
+    font: 16px $roboto;
+    height: 100px;
+    margin: 20% auto;
+    width: 250px;
+
+    &.dark {
+        background-color: $black;
+        color: $white;
+    }
+
+    @include bp-below(small) {
+        margin: 60% auto;
+    }
+}
+
+.modalHeader {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 40px;
+}
+
+.xIcon {
+    display: block;
+    font-size: 18px;
+    height: 30px;
+    margin: 3px;
+    width: 30px;
+}
+
+.message {
+    text-align: center;
+    text-transform: capitalize;
+}

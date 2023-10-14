@@ -1,0 +1,29 @@
+@import "../../styles/breakpoints.scss";
+@import "../../styles/colors.scss";
+
+.navbar {
+    background-color: $black;
+    height: 65px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.hamburgerLogo {
+    color: $white;
+    cursor: pointer;
+    width: 35px;
+}
+
+.brandLogo {
+    width: 100px;
+}

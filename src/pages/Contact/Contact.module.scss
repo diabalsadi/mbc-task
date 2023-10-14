@@ -1,0 +1,36 @@
+@import "../../styles/breakpoints.scss";
+@import "../../styles/colors.scss";
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 70%;
+
+    @include bp-below(medium) {
+        width: 100%;
+    }
+}
+
+.submitButton {
+    background-color: $black;
+    border-radius: 5px;
+    color: $white;
+    height: 30px;
+    width: 150px;
+
+    &.dark {
+        background-color: $white;
+        color: $black;
+    }
+
+    @include bp-below(small) {
+        width: 100px;
+    }
+}
