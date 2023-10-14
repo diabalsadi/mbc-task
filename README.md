@@ -1,6 +1,6 @@
 # Webiste
 
-[CLick Here](https://mbc-task.vercel.app/)
+[Click Here](https://mbc-task.vercel.app/)
 
 # What Is The Project For
 
